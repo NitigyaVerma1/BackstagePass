@@ -2,6 +2,9 @@ import BroadcastIcon from "../../assets/Icons/LogoIcon";
 import SubHeader from "./SubHeader";
 
 const Header = ({activeDay})=>{
+  const toggleTheme = () => {
+  document.body.classList.toggle("dark");
+};
   return (
     <>
 <div className="header">
@@ -13,6 +16,9 @@ const Header = ({activeDay})=>{
         </div>
 
         <div className="header-right">
+          <button onClick={toggleTheme}>
+🌙
+          </button>
 
           <div className="flame">
             🔥 <span>30</span>
