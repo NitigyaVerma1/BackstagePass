@@ -1,14 +1,50 @@
+:root{
+--bg: #f5f5f5;
+--card-bg: #ffffff;
+--text: #222;
+--subtext: #666;
+--border: #e5e5e5;
+--accent: #c58f2a;
+--sidebar-bg: #fafafa;
+--reaction-bg: #f4f4f4;
+}
+.dark{
+--bg: #0f1115;
+--card-bg: #1a1d23;
+--text: #e6e8eb;
+--subtext: #9aa0a6;
+--border: #2a2f36;
+--accent: #d8a33c;
+--sidebar-bg: #14171c;
+--reaction-bg: #23272f;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Inter';
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:var(--bg);
-  color:var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: large;
+  background: var(--bg);
+  color: var(--text);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body{
+transition: background 0.3s ease;
+}
+
+/* DARK MODE BACKGROUND */
+.dark body{
+background: radial-gradient(
+circle at top,
+#161a20 0%,
+#0f1115 50%,
+#0a0c10 100%
+);
 }

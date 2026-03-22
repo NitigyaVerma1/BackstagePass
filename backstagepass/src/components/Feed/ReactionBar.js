@@ -1,19 +1,22 @@
 const ReactionBar = () => {
 
   return (
-    <div className="reaction-bar">
+    <div className="post-actions">
 
-      <button>🙏</button>
+  {/* LEFT REACTIONS GROUP */}
+  <div className="reactions-pill">
+    <span className="emoji">🙏</span>
+    <span className="emoji">😍</span>
+    <span className="count">18</span>
+  </div>
 
-      <button>🔥</button>
+  {/* RIGHT ACTIONS */}
+  <div className="action-icons">
+    <div className="icon">😊</div>
+    <div className="icon">💬</div>
+  </div>
 
-      <button>💪</button>
-
-      <span>18</span>
-
-      <button>💬</button>
-
-    </div>
+</div>
   );
 }
 
