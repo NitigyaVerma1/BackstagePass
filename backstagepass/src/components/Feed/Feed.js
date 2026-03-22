@@ -15,9 +15,9 @@ const Feed = ({ posts }) => {
         <h2>
           See what others
           <span className="avatars img">
-            <img src="https://i.pravatar.cc/30?img=1" />
-            <img src="https://i.pravatar.cc/30?img=2" />
-            <img src="https://i.pravatar.cc/30?img=3" />
+            <img src="https://i.pravatar.cc/30?img=1" alt=""/>
+            <img src="https://i.pravatar.cc/30?img=2" alt=""/>
+            <img src="https://i.pravatar.cc/30?img=3" alt=""/>
           </span>
           shared
         </h2>
